@@ -1,0 +1,162 @@
+<html>
+
+<head>
+    <title>Assignment 1 Exam Page</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2>This is the exam of the course</h2>
+    <ul class="navbar">
+        <li><a href="#pinfo">Personal Login</a></li>
+        <li><a href="#firstgroup">First Group</a></li>
+        <li><a href="#secondgroup">Second Group</a></li>
+        <li><a href="#thirdgroup">Third Group</a></li>
+        <li><a href="#fourthgroup">Fourth Group</a></li>
+        <li><a href="assignment.html">Back to Home</a></li>
+    </ul>
+    <form action="" method="post">
+        <div id="pinfo">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p><label for="fname">First Name : </label><input type="text" placeholder="First Name" id="fname" required>
+                    (First Name)</p>
+                <p><label for="lname">Last Name : </label><input type="text" placeholder="Last Name" id="lname" required>
+                    (Last Name)</p>
+                <p><label for="email">Email : </label><input type="email" placeholder="name@domain.com" id="email" required>
+                    (name@domain.com)</p>
+                <p><label for="bmonth">Birth Month : </label><input type="text" placeholder="Select a month" id="bmonth"
+                        list="months" required>
+                    <datalist id="months">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                        <option value="11"></option>
+                        <option value="12"></option>
+                    </datalist></p>
+                <p><label for="password">Password : </label><input type="password" placeholder="Enter The Password"
+                        id="password" required></p>
+            </fieldset>
+        </div> <!-- #/pinfo -->
+        <div id="firstgroup">
+            <fieldset>
+                <legend>First Group</legend>
+                <h4>Select The Right Answer :</h4>
+                <ol type="A">
+                    <li>
+                        IUG Abbrevation of <br>
+                        <input type="radio" id="igaza" name="answer1">
+                        <label for="igaza">Islamic United School of Gaza</label>
+                        <input type="radio" id="iug" name="answer1">
+                        <label for="iug">Islamic University of Gaza</label>
+                        <input type="radio" id="none" name="answer1">
+                        <label for="none">None of the above</label>
+                    </li>
+                    <li>
+                        SDEV Abbrevation of <br>
+                        <input type="radio" id="systemd" name="answer2">
+                        <label for="systemd">System Development</label>
+                        <input type="radio" id="softwared" name="answer2">
+                        <label for="softwared">Software Development</label>
+                        <input type="radio" id="none2" name="answer2">
+                        <label for="none2">None of the above</label>
+                    </li>
+                </ol>
+            </fieldset>
+        </div> <!-- #/firstgroup-->
+        <div id="secondgroup">
+            <fieldset>
+                <legend>Second Group</legend>
+                <h4>Select The Right Answers :</h4>
+                <ol type="A">
+                    <li>
+                        5*2 = <br>
+                        <input type="checkbox" id="5+5" name="answer2">
+                        <label for="5+5">5+5</label>
+                        <input type="checkbox" id="2" name="answer2">
+                        <label for="2">2+2+2+2+2</label>
+                        <input type="checkbox" id="all1" name="answer2">
+                        <label for="all1">all of the above</label>
+                        <input type="checkbox" id="none3" name="answer2">
+                        <label for="none3">None of the above</label>
+                    </li>
+                    <li>
+                        6/18 = <br>
+                        <input type="checkbox" id="3/6" name="answer2">
+                        <label for="3/6">3/6</label>
+                        <input type="checkbox" id="2/6" name="answer2">
+                        <label for="2/6">2/6</label>
+                        <input type="checkbox" id="all2" name="answer2">
+                        <label for="all2">all of the above</label>
+                        <input type="checkbox" id="none4" name="answer2">
+                        <label for="none4">None of the above</label>
+                    </li>
+                </ol>
+            </fieldset>
+        </div> <!-- #/secondgroup -->
+        <div id="thirdgroup">
+            <fieldset>
+                <legend>Third Group</legend>
+                <h4>Select The Right Answer :</h4>
+                <ol type="A">
+                    <li>
+                        The Max value for 3 bits in binary = 
+                        <select name="" id="">
+                            <option value="" selected></option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+                    </li>
+                    <li>
+                        This Semester ID is = 
+                        <select name="" id="">
+                            <option value="20200" selected>20200</option>
+                            <option value="20201">20201</option>
+                            <option value="20202">20202</option>
+                            <option value="20203">20203</option>
+                            <option value="20204">20204</option>
+                        </select>
+                    </li>
+                </ol>
+            </fieldset>
+        </div> <!-- #/thirdgroup -->
+        <div id="fourthgroup">
+            <fieldset>
+                <legend>Fourth Group</legend>
+                <h4>Select The Right Answer :</h4>
+                <ol type="A">
+                    <li>
+                        What is a pseudo-class and psuedo-element ? <br> <br>
+                        <textarea name="firstQuestion" id="fQuestion" cols="60" rows="10" placeholder="Enter The Answer"></textarea>
+                    </li>
+                    <li>
+                        What is the difference between ID and Class selector ? <br> <br>
+                        <textarea name="secondQuestion" id="sQuestion" cols="60" rows="10" placeholder="Enter The Answer"></textarea>
+                    </li>
+                </ol>
+            </fieldset>
+        </div> <!-- #/fourthgroup -->
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+</body>
+
+</html>

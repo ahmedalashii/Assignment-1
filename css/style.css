@@ -1,0 +1,155 @@
+/* General Styles */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+.container{
+    position: relative;
+    width: 70%;
+    margin: 30px auto; /* 30 px from top and bottom , auto from left and right to put the container in the middle*/
+    border: 3px solid #000;
+    overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #00B050;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+main{
+    float: left;
+    width: 70%;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+textarea{
+    resize: vertical;
+}
+/* Common Styles */
+#home:hover , #about:hover , #sinfo:hover , #aside:hover , #contact:hover , #pinfo:hover , #firstgroup:hover,#secondgroup:hover ,#thirdgroup:hover , #fourthgroup:hover{
+    background-color: #eee;
+}
+#home , #about , #sinfo , #aside , #contact{
+    margin: 10px;
+}
+#home , #about , #sinfo , #contact{
+    border-right: 1px solid #eee;
+}
+/* Navbar Section */
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar li{
+    display: inline-block;
+    color: #fff;
+}
+.navbar a{
+    display: block;
+    color: #fff;
+    padding: 12px 30px;
+    transition: background-color 0.3s;
+
+}
+.dropdown{
+    position: absolute;
+    background-color: #333;
+    display:none;
+    z-index: 999;
+}
+.dropdown li{
+    margin-left: -40px;
+}
+.dropdown a , .dropdown li{
+    display: block;
+}
+.drop:hover .dropdown{
+    display: block;
+}
+.navbar a:hover{
+    background-color: #00B050;
+}
+.logo img{
+    width: 160px;
+    height: 140px;    
+}
+.logo span{
+    position: absolute;
+    font-size: 20px;
+    color: #000;
+    display: inline-block;
+    top: 60px;
+}
+.navbar .logo img{
+    width: 100px;
+    height: 80px;
+}
+
+/* Home */
+#home{
+    color: #00B050;
+    border-right: 1px solid #eee;
+}
+/* About Section */
+
+#about span{
+    color: #00B050;
+}
+/* Student Information Section */
+#sinfo{
+    color: #00B050;
+    padding-bottom: 10px;
+}
+#table{
+    width: 100%;
+    border-collapse: collapse; /* important */
+}
+#table caption{
+    margin-bottom: 10px;
+}
+#table td , #table th{
+    border: 1px solid #555555;
+    padding: 8px;
+}
+/* Footer Section */
+#footer{
+    position: absolute;
+    background-color: #333;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    color: #fff;
+    text-align: left;
+}
+#footer span{
+    display: block;
+    padding: 8px;
+}
+/* Aside Section */
+#aside{
+    position: relative;
+    float: right;
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    top:300px;
+}
+#aside h2{
+    padding-bottom: 15px;
+}
+/* Contact Page */
+#contact #table , #sinfo #table{
+    color: #00B050;
+}
+#contact #table caption , #sinfo #table caption{
+    text-align: left;
+    font-size: 25px;
+}
+.container main hr{
+    width: 100%;
+}
