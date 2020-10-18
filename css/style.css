@@ -26,6 +26,7 @@ main{
     margin-bottom: 15px;
 }
 textarea{
+    outline: none;
     resize: vertical;
 }
 /* Common Styles */
@@ -52,18 +53,18 @@ textarea{
     color: #fff;
     padding: 12px 30px;
     transition: background-color 0.3s;
-
 }
 .dropdown{
     position: absolute;
     background-color: #333;
     display:none;
     z-index: 999;
+    transition: display 0.5s;
 }
 .dropdown li{
     margin-left: -40px;
 }
-.dropdown a , .dropdown li{
+.dropdown a, .dropdown li{
     display: block;
 }
 .drop:hover .dropdown{
@@ -80,7 +81,6 @@ textarea{
     position: absolute;
     font-size: 20px;
     color: #000;
-    display: inline-block;
     top: 60px;
 }
 .navbar .logo img{
@@ -132,12 +132,11 @@ textarea{
 }
 /* Aside Section */
 #aside{
-    position: relative;
     float: right;
     width: 25%;
     margin: 10px;
+    margin-top: 300px;
     text-align: center;
-    top:300px;
 }
 #aside h2{
     padding-bottom: 15px;
@@ -152,4 +151,7 @@ textarea{
 }
 .container main hr{
     width: 100%;
+}
+#pinfo{
+    color: #2F4F4F;
 }
